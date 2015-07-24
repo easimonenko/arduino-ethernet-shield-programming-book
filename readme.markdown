@@ -1,13 +1,17 @@
-# Название
+# РќР°Р·РІР°РЅРёРµ
 
-Arduino Ethernet Shield. Учебник по программированию
+Arduino Ethernet Shield. РЈС‡РµР±РЅРёРє РїРѕ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёСЋ
 
-# Автор
+# РђРІС‚РѕСЂ
 
-Симоненко Евгений А. <easimonenko@mail.ru>
+РЎРёРјРѕРЅРµРЅРєРѕ Р•РІРіРµРЅРёР№ Рђ. <easimonenko@mail.ru>
 
-# Сайт
+# РЎР°Р№С‚
 
-http://bitbucket.org/easimonenko/arduino-ethernet-shield-programming-book
+https://bitbucket.org/easimonenko/arduino-ethernet-shield-programming-book
+
+# РЎРѕРґРµСЂР¶Р°РЅРёРµ
+
+- [Р’РІРµРґРµРЅРёРµ]<intro.markdown>
 
 (c) 2015 Evgeniy A. Simonenko <easimonenko@mail.ru>
