@@ -12,6 +12,6 @@ https://bitbucket.org/easimonenko/arduino-ethernet-shield-programming-book
 
 # Содержание
 
-- [Введение]<intro.markdown>
+- [Введение](./intro.markdown)
 
 (c) 2015 Evgeniy A. Simonenko <easimonenko@mail.ru>
