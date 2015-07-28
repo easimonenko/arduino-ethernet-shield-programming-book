@@ -1,4 +1,6 @@
-[\[К началу\]](/readme.markdown)
+[\[<-- К началу\]](/readme.markdown)
+
+---
 
 # Введение
 
@@ -19,8 +21,8 @@ _UDP_. Декларируемая скорость передачи данных
 использовать технологию _Power over Ethernet_, но её поддержку Вы должны
 осуществить самостоятельно, посредством установки соответствующего модуля.
 
-[![Arduino Ethernet Shield -- Общий вид "три четверти"](/images/DSC06931-640x480.JPG "Arduino Ethernet Shield -- Общий вид "три четверти"")](/images/DSC06931.JPG)
-[![Arduino Ethernet Shield -- Кнопка сброса](/images/DSC06941-640x480.JPG "Arduino Ethernet Shield -- Кнопка сброса")](/images/DSC06941.JPG)
+[![Arduino Ethernet Shield -- Общий вид "три четверти"](/images/DSC06931-320x240.JPG "Arduino Ethernet Shield -- Общий вид "три четверти"")](/images/DSC06931-800x600.JPG)
+[![Arduino Ethernet Shield -- Кнопка сброса](/images/DSC06941-320x240.JPG "Arduino Ethernet Shield -- Кнопка сброса")](/images/DSC06941-800x600.JPG)
 
 Коммуникация Arduino с Ethernet Shield осуществляется через четырёх проводную
 шину **SPI**, соответственно, на Uno это выводы **10**, **11**, **12** и **13**,
@@ -37,8 +39,8 @@ MicroSD, так как используется разделяемая шина 
 Для отключения MicroSD установите линию 4 выходной и задайте ей высокий уровень.
 Соответственно, для отключения WIZnet W5100 проделайте тоже самое для линии 10.
 
-[![Arduino Ethernet Shield -- Слот MicroSD](/images/DSC06942-320x240.JPG "Arduino Ethernet Shield -- Слот MicroSD")](/images/DSC06942.JPG)
-[![Arduino Ethernet Shield -- Общий вид сверху](/images/DSC06935-320x240.JPG "Arduino Ethernet Shield -- Общий вид сверху")](/images/DSC06935.JPG)
+[![Arduino Ethernet Shield -- Слот MicroSD](/images/DSC06942-320x240.JPG "Arduino Ethernet Shield -- Слот MicroSD")](/images/DSC06942-800x600.JPG)
+[![Arduino Ethernet Shield -- Общий вид сверху](/images/DSC06935-320x240.JPG "Arduino Ethernet Shield -- Общий вид сверху")](/images/DSC06935-800x600.JPG)
 
 На шилде есть информационные LED-индикаторы:
 
@@ -90,6 +92,10 @@ MicroSD-карте.
 - Arduino GitHub: <https://github.com/arduino>
 
 - Arduino.Org GitHub: <https://github.com/arduino-org>
+
+---
+
+[\[Далее -->\]](/appendix-a.markdown)
 
 ---
 
