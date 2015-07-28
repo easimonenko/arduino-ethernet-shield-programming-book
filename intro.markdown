@@ -1,7 +1,6 @@
 # Введение
 
-![Arduino Ethernet Shield -- Общий вид "три четверти"](/images/DSC06931-640x480.JPG)
-[Изображение в полном разрешении -->](/images/DSC06931.JPG)
+[![Arduino Ethernet Shield -- Общий вид "три четверти"](/images/DSC06931-640x480.JPG)](/images/DSC06931.JPG)
 
 Плата-дополнение (по-английски shield, далее шилд) __Arduino Ethernet Shield__
 позволяет подключить контроллер _Arduino Uno_ или _Arduino Mega_ (далее просто
