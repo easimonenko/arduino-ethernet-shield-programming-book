@@ -10,8 +10,16 @@ Arduino Ethernet Shield. Учебник по программированию
 
 https://bitbucket.org/easimonenko/arduino-ethernet-shield-programming-book
 
+# Копирайт
+
+Дословное копирование и распространение этого документа допускается на любом
+носителе с публикацией данного уведомления и сохранением уведомления об
+авторских правах.
+
 # Содержание
 
 - [Введение](./intro.markdown)
+
+---
 
 (c) 2015 Evgeniy A. Simonenko <easimonenko@mail.ru>
