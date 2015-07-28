@@ -1,4 +1,4 @@
-[К началу](/README.markdown)
+[\[К началу\]](/readme.markdown)
 
 # Введение
 
@@ -19,8 +19,8 @@ _UDP_. Декларируемая скорость передачи данных
 использовать технологию _Power over Ethernet_, но её поддержку Вы должны
 осуществить самостоятельно, посредством установки соответствующего модуля.
 
-[![Arduino Ethernet Shield -- Общий вид "три четверти"](/images/DSC06931-320x240.JPG "Arduino Ethernet Shield -- Общий вид "три четверти"")](/images/DSC06931.JPG)
-[![Arduino Ethernet Shield -- Кнопка сброса](/images/DSC06941-320x240.JPG "Arduino Ethernet Shield -- Кнопка сброса")](/images/DSC06941.JPG)
+[![Arduino Ethernet Shield -- Общий вид "три четверти"](/images/DSC06931-640x480.JPG "Arduino Ethernet Shield -- Общий вид "три четверти"")](/images/DSC06931.JPG)
+[![Arduino Ethernet Shield -- Кнопка сброса](/images/DSC06941-640x480.JPG "Arduino Ethernet Shield -- Кнопка сброса")](/images/DSC06941.JPG)
 
 Коммуникация Arduino с Ethernet Shield осуществляется через четырёх проводную
 шину **SPI**, соответственно, на Uno это выводы **10**, **11**, **12** и **13**,
@@ -67,7 +67,7 @@ MicroSD, так как используется разделяемая шина 
 Arduino с использованием Ethernet Shield, а также организацию хранения данных на 
 MicroSD-карте.
 
-Изображения в полном разрешении доступны в [Приложении A](/appendix-a.markdown).
+Больше изображений в полном разрешении доступны в [Приложении A](/appendix-a.markdown).
 
 ## Ссылки
 
