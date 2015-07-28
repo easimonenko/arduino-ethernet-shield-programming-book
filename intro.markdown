@@ -1,6 +1,6 @@
-# Введение
+[К началу](/README.markdown)
 
-[![Arduino Ethernet Shield -- Общий вид "три четверти"](/images/DSC06931-640x480.JPG)](/images/DSC06931.JPG)
+# Введение
 
 Плата-дополнение (по-английски shield, далее шилд) __Arduino Ethernet Shield__
 позволяет подключить контроллер _Arduino Uno_ или _Arduino Mega_ (далее просто
@@ -19,7 +19,8 @@ _UDP_. Декларируемая скорость передачи данных
 использовать технологию _Power over Ethernet_, но её поддержку Вы должны
 осуществить самостоятельно, посредством установки соответствующего модуля.
 
-![Arduino Ethernet Shield -- Кнопка сброса](/images/DSC06941-640x480.JPG)
+[![Arduino Ethernet Shield -- Общий вид "три четверти"](/images/DSC06931-320x240.JPG "Arduino Ethernet Shield -- Общий вид "три четверти"")](/images/DSC06931.JPG)
+[![Arduino Ethernet Shield -- Кнопка сброса](/images/DSC06941-320x240.JPG "Arduino Ethernet Shield -- Кнопка сброса")](/images/DSC06941.JPG)
 
 Коммуникация Arduino с Ethernet Shield осуществляется через четырёх проводную
 шину **SPI**, соответственно, на Uno это выводы **10**, **11**, **12** и **13**,
@@ -29,8 +30,6 @@ _UDP_. Декларируемая скорость передачи данных
 не используется аппаратный вывод **SS** (**53**), но для сохранения
 работоспособности SPI требуется держать его выходным.
 
-![Arduino Ethernet Shield -- Слот MicroSD](/images/DSC06942-640x480.JPG)
-
 Как уже было сказано, нельзя одновременно работать с чипом WIZnet W5100 и
 MicroSD, так как используется разделяемая шина SPI. Если в своей программе Вы
 работаете с ними обоими, то об этом должны позаботиться соответствующие 
@@ -38,7 +37,8 @@ MicroSD, так как используется разделяемая шина 
 Для отключения MicroSD установите линию 4 выходной и задайте ей высокий уровень.
 Соответственно, для отключения WIZnet W5100 проделайте тоже самое для линии 10.
 
-![Arduino Ethernet Shield -- Общий вид сверху](/images/DSC06935-640x480.JPG)
+[![Arduino Ethernet Shield -- Слот MicroSD](/images/DSC06942-320x240.JPG "Arduino Ethernet Shield -- Слот MicroSD")](/images/DSC06942.JPG)
+[![Arduino Ethernet Shield -- Общий вид сверху](/images/DSC06935-320x240.JPG "Arduino Ethernet Shield -- Общий вид сверху")](/images/DSC06935.JPG)
 
 На шилде есть информационные LED-индикаторы:
 
