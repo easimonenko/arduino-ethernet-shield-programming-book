@@ -20,7 +20,11 @@ https://bitbucket.org/easimonenko/arduino-ethernet-shield-programming-book
 
 - [Введение](/intro.markdown)
 
-- [Приложение А. Изображения Arduino Ethernet Shield](/appendix-a.markdown)
+- [Приложение A. Изображения Arduino Ethernet Shield](/appendix-a.markdown)
+
+- [Приложение B. Изображения Arduino Uno R3](/appendix-b.markdown)
+
+- [Приложение C. Изображения Arduino Uno R3 с Ethernet Shield](/appendix-c.markdown)
 
 ---
 
