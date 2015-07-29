@@ -1,4 +1,4 @@
-[\[<-- К началу\]](/readme.markdown)
+[\[К началу\]](/readme.markdown) | [\[Приложение А\]](/appendix-a.markdown)
 
 ---
 
@@ -32,6 +32,9 @@ _UDP_. Декларируемая скорость передачи данных
 не используется аппаратный вывод **SS** (**53**), но для сохранения
 работоспособности SPI требуется держать его выходным.
 
+[![Arduino Uno R3 -- Общий вид "три четверти"](/images/DSC06958-320x240.JPG "Arduino Uno R3 -- Общий вид "три четверти"")](/images/DSC06958-800x600.JPG)
+[![Arduino Ethernet Shield надетый на Arduino Uno R3](/images/DSC06967-320x240.JPG "Arduino Ethernet Shield надетый на Arduino Uno R3")](/images/DSC06967-800x600.JPG)
+
 Как уже было сказано, нельзя одновременно работать с чипом WIZnet W5100 и
 MicroSD, так как используется разделяемая шина SPI. Если в своей программе Вы
 работаете с ними обоими, то об этом должны позаботиться соответствующие 
@@ -40,7 +43,7 @@ MicroSD, так как используется разделяемая шина 
 Соответственно, для отключения WIZnet W5100 проделайте тоже самое для линии 10.
 
 [![Arduino Ethernet Shield -- Слот MicroSD](/images/DSC06942-320x240.JPG "Arduino Ethernet Shield -- Слот MicroSD")](/images/DSC06942-800x600.JPG)
-[![Arduino Ethernet Shield -- Общий вид сверху](/images/DSC06935-320x240.JPG "Arduino Ethernet Shield -- Общий вид сверху")](/images/DSC06935-800x600.JPG)
+[![Arduino Ethernet Shield с Arduino Uno R3 -- вид со стороны колодки ICSP](/images/DSC06968-320x240.JPG "Arduino Ethernet Shield с Arduino Uno R3 -- вид со стороны колодки ICSP")](/images/DSC06968-800x600.JPG)
 
 На шилде есть информационные LED-индикаторы:
 
@@ -95,7 +98,7 @@ MicroSD-карте.
 
 ---
 
-[\[Далее -->\]](/appendix-a.markdown)
+[\[К началу\]](/readme.markdown) | [\[Приложение А\]](/appendix-a.markdown)
 
 ---
 
