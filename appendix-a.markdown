@@ -1,4 +1,6 @@
-[\[К началу\]](/readme.markdown)
+[\[К началу\]](/readme.markdown) | [\[Приложение Б\]](/appendix-b.markdown)
+
+---
 
 # Приложение А. Изображения Arduino Ethernet Shied
 
@@ -76,6 +78,10 @@
 
 [320x240](/images/DSC06942-320x240.JPG) | [640x480](/images/DSC06942-640x480.JPG)
 | [800x600](/images/DSC06942-800x600.JPG) | [Full size](/images/DSC06942.JPG)
+
+---
+
+[\[К началу\]](/readme.markdown) | [\[Приложение Б\]](/appendix-b.markdown)
 
 ---
 
