@@ -1,4 +1,4 @@
-[\[К началу\]](/readme.markdown) | [\[Приложение А\]](/appendix-a.markdown)
+[\[К началу\]](/readme.markdown) | [\[Библиотека Ethernet\]](/ethernet-library.markdown)
 
 ---
 
@@ -82,7 +82,7 @@ MicroSD-карте.
 
 ## Примечание
 
-На форуме Arduino обсуждается вопрос о совместимости Ethernet Shield с _Arduino Due_.
+На форуме Arduino обсуждался вопрос о совместимости Ethernet Shield с _Arduino Due_.
 Общий вывод из обсуждений такой, что совместимость есть, однако возможны отличия
 по работе с шилд в Due от Uno и Mega. Несмотря на то, что у автора есть в наличии
 контроллер Due, но здесь будет обсуждаться только работа с Uno.
@@ -111,8 +111,8 @@ MicroSD-карте.
 
 ---
 
-[\[К началу\]](/readme.markdown) | [\[Приложение А\]](/appendix-a.markdown)
+[\[К началу\]](/readme.markdown) | [\[Библиотека Ethernet\]](/ethernet-library.markdown)
 
 ---
 
-(c) 2015 Симоненко Евгений А. <easimonenko@mail.ru>
+(c) 2015, Симоненко Евгений А. <easimonenko@mail.ru>
