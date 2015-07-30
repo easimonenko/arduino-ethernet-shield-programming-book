@@ -17,9 +17,10 @@
 	#include <Ethernet.h>
 ```
 
-## Класс Ethernet
+## Объект Ethernet
 
-Класс _Ethernet_ инициализирует библиотеку Ethernet и позволяет задать сетевые настройки.
+Объект _Ethernet_ инициализирует библиотеку Ethernet и позволяет задать сетевые настройки.
+Является экземпляром класса _EthernetClass_.
 
 ### Ethernet.begin()
 
@@ -70,6 +71,49 @@
 	void loop () {
 	}
 ```
+
+### Ethernet.localIP()
+
+Метод _Ethernet.localIP()_ позволяет узнать IP-адрес Ethernet Shield. Используется,
+когда IP-адрес был назначен DHCP-сервером. Метод не получает никаких параметров и
+возвращает объект класса _IPAddress_.
+
+Небольшой пример кода с методом Ethernet.localIP():
+
+``` adruino
+	#include <SPI.h>
+	#include <Ethernet.h>
+
+	byte mac[] = {0x00, 0xAA, 0xBB, 0xCC, 0xDE, 0x02};
+
+	void setup() {
+  		Serial.begin(9600);
+  		if (Ethernet.begin(mac) == 0) {
+    		Serial.println("Failed to configure Ethernet using DHCP!");
+    		while (true) {
+			}
+  		}
+  		Serial.println(Ethernet.localIP());
+	}
+
+	void loop() {
+	}
+```
+
+### Ethernet.maintain()
+
+Метод _Ethernet.maintain()_ позволяет перепривязать или обновить выданный DHCP-сервером адрес.
+Метод не получает никаких параметров и возвращает одно из следующих значений типа int:
+
+* 0: ничего не получено;
+
+* 1: обновление неуспешно;
+
+* 2: обновление успешно;
+
+* 3: перепривязка неуспешна;
+
+* 4: перепривязка успешна.
 
 ---
 
