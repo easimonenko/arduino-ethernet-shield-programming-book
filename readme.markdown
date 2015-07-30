@@ -4,7 +4,7 @@ Arduino Ethernet Shield. Учебник по программированию
 
 # Автор
 
-Симоненко Евгений А. \<<easimonenko@mail.ru>\>
+Симоненко Евгений А. <easimonenko@mail.ru>
 
 # Сайт
 
