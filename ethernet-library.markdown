@@ -216,15 +216,37 @@ EthernetClass нет смысла, тем более, что установка 
 
 ### Оператор сравнения (==)
 
-...
+Оператор сравнения (==) объявлен в двух формах:
+
+``` arduino
+	bool operator==(const IPAddress& addr) const { return _address.dword == addr._address.dword; };
+    bool operator==(const uint8_t* addr) const;
+```
+
+Оператор позволяет сравнивать два объекта IPAddress или объект IPAdrress и IP-адрес в форме
+массива из четырёх чисел.
 
 ### Оператор присваивания (=)
 
-...
+Оператор присваивания (=) представлен в двух формах:
+
+``` arduino
+	IPAddress& operator=(const uint8_t *address);
+    IPAddress& operator=(uint32_t address);
+```
+
+Благодаря этим двум операторам, мы можем задавать IP-адрес в форме массива из четырёх
+чисел или в форме четырёх байтового числа.
 
 ### Оператор индексации ([])
 
-...
+Оператор индексации позволяет обращаться к каждой из четырёх компонент IP-адреса
+по отдельности.
+
+```arduino
+	uint8_t operator[](int index) const { return _address.bytes[index]; };
+    uint8_t& operator[](int index) { return _address.bytes[index]; };
+```
 
 ### Пример
 
