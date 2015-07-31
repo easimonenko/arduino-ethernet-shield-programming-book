@@ -143,6 +143,16 @@ EthernetClass нет смысла, тем более, что установка ещё одного Ethernet Shield не
 
 ---
 
+Смотри также:
+
+* [Класс IPAddress](/ipaddress-class.markdown)
+
+* [Класс EthernetServer](/ethernetserver-class.markdown)
+
+* [Класс EthernetClient](/ethernetclient-class.markdown)
+
+---
+
 [\[К началу\]](/readme.markdown) | [\[Библиотека SD\]](/sd-library.markdown)
 
 ---

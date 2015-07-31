@@ -23,7 +23,11 @@
 
 * [Класс IPAddress](/ipaddress.markdown)
 
-* [Класс EthernetServer](/ethernet-server-class.markdown)
+* [Класс Server](/server-class.markdown)
+
+* [Класс EthernetServer](/ethernetserver-class.markdown)
+
+* [Класс EthernetClient](/ethernetclient-class.markdown)
 
 Смотри также:
 
@@ -34,12 +38,7 @@
 * [Библиотека Print](/print-library.markdown)
 
 
-## Класс Sever
 
-Класс _Server_ является базовым абстрактным классом в то числе и для описываемых здесь ниже.
-Объекты от этого класса непосредственно не создают. Класс _Server_ наследует от класса _Print_.
-Это означает, что у класса _Server_ есть методы класса _Print_ такие как _print()_ и _println()_.
-Класс _Print_ будет рассмотрен в одной из следующих глав.
 
 ## Класс EthernetServer
 

@@ -145,6 +145,16 @@
 
 ---
 
+Смотри также:
+
+* [Объект Ethernet](/ethernet-object.markdown)
+
+* [Класс EthernetServer](/ethernetserver-class.markdown)
+
+* [Класс EthernetClient](/ethernetclient-class.markdown)
+
+---
+
 [\[К началу\]](/readme.markdown) | [\[Библиотека SD\]](/sd-library.markdown)
 
 ---
