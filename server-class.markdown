@@ -1,32 +1,32 @@
-[\[К началу\]](/readme.markdown) | [\[Библиотека SD\]](/sd-library.markdown)
+[\[Рљ РЅР°С‡Р°Р»Сѓ\]](/readme.markdown) | [\[Р‘РёР±Р»РёРѕС‚РµРєР° SD\]](/sd-library.markdown)
 
 ---
 
-# Библиотека Ethernet
+# Р‘РёР±Р»РёРѕС‚РµРєР° Ethernet
 
-[\[Библиотека Ethernet\]](/ethernet-library.markdown)
+[\[Р‘РёР±Р»РёРѕС‚РµРєР° Ethernet\]](/ethernet-library.markdown)
 
-## Класс Server
+## РљР»Р°СЃСЃ Server
 
-Класс _Server_ является базовым абстрактным классом в то числе и для описываемых здесь ниже.
-Объекты от этого класса непосредственно не создают. Класс _Server_ наследует от класса _Print_.
-Это означает, что у класса _Server_ есть методы класса _Print_ такие как _print()_ и _println()_.
-Класс _Print_ будет рассмотрен в одной из следующих глав.
+РљР»Р°СЃСЃ _Server_ СЏРІР»СЏРµС‚СЃСЏ Р±Р°Р·РѕРІС‹Рј Р°Р±СЃС‚СЂР°РєС‚РЅС‹Рј РєР»Р°СЃСЃРѕРј РІ С‚Рѕ С‡РёСЃР»Рµ Рё РґР»СЏ РѕРїРёСЃС‹РІР°РµРјС‹С… Р·РґРµСЃСЊ РЅРёР¶Рµ.
+РѕР±СЉРµРєС‚С‹ РѕС‚ СЌС‚РѕРіРѕ РєР»Р°СЃСЃР° РЅРµРїРѕСЃСЂРµРґСЃС‚РІРµРЅРЅРѕ РЅРµ СЃРѕР·РґР°СЋС‚. РљР»Р°СЃСЃ _Server_ РЅР°СЃР»РµРґСѓРµС‚ РѕС‚ РєР»Р°СЃСЃР° _Print_.
+Р­С‚Рѕ РѕР·РЅР°С‡Р°РµС‚, С‡С‚Рѕ Сѓ РєР»Р°СЃСЃР° _Server_ РµСЃС‚СЊ РјРµС‚РѕРґС‹ РєР»Р°СЃСЃР° _Print_ С‚Р°РєРёРµ РєР°Рє _print()_ Рё _println()_.
+РљР»Р°СЃСЃ _Print_ Р±СѓРґРµС‚ СЂР°СЃСЃРјРѕС‚СЂРµРЅ РІ РѕРґРЅРѕР№ РёР· СЃР»РµРґСѓСЋС‰РёС… РіР»Р°РІ.
 
-Смотри также:
+РЎРјРѕС‚СЂРё С‚Р°РєР¶Рµ:
 
-* [Класс EthernetServer](/ethernetserver-class.markdown)
+* [РљР»Р°СЃСЃ EthernetServer](/ethernetserver-class.markdown)
 
-* [Класс EthernetClient](/ethernetclient-class.markdown)
+* [РљР»Р°СЃСЃ EthernetClient](/ethernetclient-class.markdown)
 
-* [Объект Ethernet](/ethernet-object.markdown)
+* [РћР±СЉРµРєС‚ Ethernet](/ethernet-object.markdown)
 
-* [Класс Print](/print-class.markdown)
-
----
-
-[\[К началу\]](/readme.markdown) | [\[Библиотека SD\]](/sd-library.markdown)
+* [РљР»Р°СЃСЃ Print](/print-class.markdown)
 
 ---
 
-(c) 2015, Симоненко Евгений А. <easimonenko@mail.ru>
+[\[Рљ РЅР°С‡Р°Р»Сѓ\]](/readme.markdown) | [\[Р‘РёР±Р»РёРѕС‚РµРєР° SD\]](/sd-library.markdown)
+
+---
+
+(c) 2015, РЎРёРјРѕРЅРµРЅРєРѕ Р•РІРіРµРЅРёР№ Рђ. <easimonenko@mail.ru>
