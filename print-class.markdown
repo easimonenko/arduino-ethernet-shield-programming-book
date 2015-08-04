@@ -1,10 +1,8 @@
-[\[К началу\]](/readme.markdown)
+[\[К началу\]](/readme.markdown) | [\[Библиотека Core\]](/core-library.markdown)
 
 ---
 
 # Библиотека Core
-
-[\[Библиотека Core\]](/core-library.markdown)
 
 ## Класс Print
 
@@ -13,13 +11,13 @@
 набор методов символьного ввода-вывода верхнего уровня. Наследующий ему класс
 должен реализовать метод write(), который собственно и осуществляет ввод-вывод.
 
-``` arduino
+``` Arduino
 	virtual size_t write(uint8_t) = 0;
 ```
 
 Вот как объявлены основные методы класса Print:
 
-``` arduino
+``` Arduino
 	size_t print(const String &);
     size_t print(const char[]);
     size_t print(char);
@@ -40,7 +38,7 @@
 По умолчанию целые числа выводятся в десятичной системе счисления, но её можно изменить на
 HEX (шестнадцатиричная), OCT (восьмеричная) и BIN (двоичная).
 
-``` arduino
+``` Arduino
 	#define DEC 10
 	#define HEX 16
 	#define OCT 8
