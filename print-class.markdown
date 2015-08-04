@@ -2,7 +2,11 @@
 
 ---
 
-# Класс Print
+# Библиотека Core
+
+[\[Библиотека Core\]](/core-library.markdown)
+
+## Класс Print
 
 Класс _Print_ является базовым классом для многих классов Arduino, в том числе
 и для таких как EthernetServer, EthernetClient. Цель данного класса -- предоставить
@@ -52,7 +56,15 @@ HEX (шестнадцатиричная), OCT (восьмеричная) и BIN 
 
 ---
 
-[\[К началу\]](/readme.markdown)
+Смотри также:
+
+* [Класс Stream](/stream-class.markdown)
+
+* [Класс Server](/server-class.markdown)
+
+---
+
+[\[К началу\]](/readme.markdown) | [\[Библиотека Core\]](/core-library.markdown)
 
 ---
 
