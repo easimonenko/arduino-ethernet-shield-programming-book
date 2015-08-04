@@ -1,10 +1,8 @@
-[\[К началу\]](/readme.markdown) | [\[Библиотека SD\]](/sd-library.markdown)
+[\[К началу\]](/readme.markdown) | [\[Библиотека Ethernet\]](/ethernet-library.markdown)
 
 ---
 
 # Библиотека Ethernet
-
-[\[Библиотека Ethernet\]](/ethernet-library.markdown)
 
 ## Класс EthernetClient
 
@@ -17,7 +15,7 @@
 
 Конструктор экземпляра класса _EthernetClient_ представлен в двух экземплярах:
 
-``` arduino
+``` Arduino
     EthernetClient();
     EthernetClient(uint8_t sock);
 ```
@@ -35,7 +33,7 @@
 Метод _available()_ возвращает количество байт, доступных для чтения из сервера, к
 которому он подключён.
 
-``` arduino
+``` Arduino
     virtual int available();
 ```
 
@@ -62,7 +60,7 @@ print() вместо println(), просто добавляя в конец да
 Ниже приведён пример простейшего сервера, который слушает порт 23 (telnet), читает, что ему
 передаёт клиент, и возвращает ему это обратно.
 
-``` arduino
+``` Arduino
 	#include <SPI.h>
 	#include <Ethernet.h>
 
@@ -86,7 +84,7 @@ print() вместо println(), просто добавляя в конец да
 
 ---
 
-[\[К началу\]](/readme.markdown) | [\[Библиотека SD\]](/sd-library.markdown)
+[\[К началу\]](/readme.markdown) | [\[Библиотека Ethernet\]](/ethernet-library.markdown)
 
 ---
 
