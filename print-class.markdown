@@ -11,7 +11,7 @@
 
 ``` arduino
 	virtual size_t write(uint8_t) = 0;
-`
+```
 
 Вот как объявлены основные методы класса Print:
 
@@ -26,7 +26,7 @@
     size_t print(unsigned long, int = DEC);
     size_t print(double, int = 2);
     size_t print(const Printable&);
-`
+```
 
 Из этого списка видно, что класс умеет выводить в символьном виде данные следующих
 типов: String (строка), массив char (строка Си), char (символ), байт (восемь бит),
@@ -41,7 +41,7 @@ HEX (шестнадцатиричная), OCT (восьмеричная) и BIN 
 	#define HEX 16
 	#define OCT 8
 	#define BIN 2
-`
+```
 
 Объект с интерфейсом Printable должен реализовать метод _printTo()_.
 
