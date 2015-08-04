@@ -1,4 +1,4 @@
-[\[К началу\]](/readme.markdown) | [\[Библиотека SD\]](/sd-library.markdown)
+[\[К началу\]](/readme.markdown)
 
 ---
 
@@ -21,9 +21,7 @@
 
 * [Объект Ethernet](/ethernet-object.markdown)
 
-* [Класс IPAddress](/ipaddress.markdown)
-
-* [Класс Server](/server-class.markdown)
+* [Класс IPAddress](/ipaddress-class.markdown)
 
 * [Класс EthernetServer](/ethernetserver-class.markdown)
 
@@ -35,11 +33,11 @@
 
 * [Библиотека SPI](/spi-library.markdown)
 
-* [Библиотека Print](/print-library.markdown)
+* [Библиотека Core](/core-library.markdown)
 
 ---
 
-[\[К началу\]](/readme.markdown) | [\[Библиотека SD\]](/sd-library.markdown)
+[\[К началу\]](/readme.markdown)
 
 ---
 
