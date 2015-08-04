@@ -1,10 +1,8 @@
-[\[К началу\]](/readme.markdown) | [\[Библиотека SD\]](/sd-library.markdown)
+[\[К началу\]](/readme.markdown) | [\[Библиотека Core\]](/core-library.markdown)
 
 ---
 
-# Библиотека Ethernet
-
-[\[Библиотека Ethernet\]](/ethernet-library.markdown)
+# Библиотека Core
 
 ## Класс Server
 
@@ -25,7 +23,7 @@
 
 ---
 
-[\[К началу\]](/readme.markdown) | [\[Библиотека SD\]](/sd-library.markdown)
+[\[К началу\]](/readme.markdown) | [\[Библиотека Core\]](/core-library.markdown)
 
 ---
 
