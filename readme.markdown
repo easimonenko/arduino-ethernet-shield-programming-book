@@ -40,6 +40,12 @@ https://bitbucket.org/easimonenko/arduino-ethernet-shield-programming-book
 
 - [Приложение C. Изображения Arduino Uno R3 с Ethernet Shield](/appendix-c.markdown)
 
+# Внимание!
+
+Книга открыта для свободного чтения 8 октября 2015. Но, к сожалению, на 
+данный момент написание книги заморожено. Часть глав недописаны, 
+нетривиальных примеров тоже нет.
+
 ---
 
 (c) 2015 Evgeniy A. Simonenko <easimonenko@mail.ru>
